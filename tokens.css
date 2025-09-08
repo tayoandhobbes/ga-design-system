@@ -1,0 +1,521 @@
+:root {
+  --grid-4-col: [object Object];
+  --grid-3-col: [object Object];
+  --grid-5-col: [object Object];
+  --grid-9col: [object Object];
+  --radius-corner-sm: 8px;
+  --radius-corner-ty: 4px;
+  --radius-corner-lg: 28px;
+  --radius-corner-xl: 40px;
+  --radius-corner-full: 1000px;
+  --radius-corner-md: 16px;
+  --color-brand-yellow: #fea42aff;
+  --color-brand-orange: #fc7445ff;
+  --color-brand-red: #fe5a59ff;
+  --color-brand-magenta: #b34783ff;
+  --color-brand-purple: #665bafff;
+  --color-brand-blue: #226ae8ff;
+  --color-brand-archive: #053750ff;
+  --color-brand-navy: #011323ff;
+  --color-base-white: #ffffffff;
+  --color-base-black: #011323ff;
+  --color-base-muted: #e5e5e5ff;
+  --color-ui-purple: #9747ffff;
+  --stroke-default: 1px;
+  --stroke-bold: 2px;
+  --stroke-heavy: 10px;
+  --spacing-xxs: 4px;
+  --spacing-xs: 8px;
+  --spacing-sm: 12px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-2xl: 40px;
+  --spacing-3xl: 48px;
+  --spacing-4xl: 56px;
+  --spacing-5xl: 64px;
+  --spacing-6xl: 80px;
+  --spacing-7xl: 96px;
+  --opacity-inactive: 20px;
+  --media-queries-mobile: 320px;
+  --media-queries-desktop: 1280px;
+  --media-queries-wide: 1600px;
+  --media-queries-tablet: 1024px;
+}
+
+.super-medium-brand {
+  font-size: 170px;
+  text-decoration: none;
+  font-family: "Wallop TRIAL";
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -5.1px;
+  line-height: 151.3px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: uppercase;
+}
+
+.display-medium-brand {
+  font-size: 100px;
+  text-decoration: none;
+  font-family: "Wallop TRIAL";
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: -3px;
+  line-height: 100px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+.display-italic-serif {
+  font-size: 100px;
+  text-decoration: none;
+  font-family: "Source Serif 4";
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  letter-spacing: -3px;
+  line-height: 82px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+.h1-medium-brand {
+  font-size: 62px;
+  text-decoration: none;
+  font-family: "Wallop TRIAL";
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 62px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+.h1-semibold-sans {
+  font-size: 62px;
+  text-decoration: none;
+  font-family: "Wallop TRIAL";
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 62px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+.h1-semibold-italic {
+  font-size: 62px;
+  text-decoration: none;
+  font-family: "Source Serif 4";
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+  letter-spacing: -1.24px;
+  line-height: 68.2px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+.h1-regular-sans {
+  font-size: 58px;
+  text-decoration: none;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 58px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: capitalize;
+}
+
+.h2-medium-italic-serif {
+  font-size: 48px;
+  text-decoration: none;
+  font-family: "Source Serif 4";
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 48px;
+  text-indent: 0px;
+  margin-bottom: 32px;
+  text-transform: none;
+}
+
+.h2-medium-brand {
+  font-size: 48px;
+  text-decoration: none;
+  font-family: "Wallop TRIAL";
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 48px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+.h3-semibold-sans {
+  font-size: 38px;
+  text-decoration: none;
+  font-family: "Wallop TRIAL";
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 45.6px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+.h3-medium-brand {
+  font-size: 38px;
+  text-decoration: none;
+  font-family: "Wallop TRIAL";
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 41.8px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+.h3-regular-serif {
+  font-size: 36px;
+  text-decoration: none;
+  font-family: "Source Serif 4";
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 43.2px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+.h4-medium-italic-serif {
+  font-size: 28px;
+  text-decoration: none;
+  font-family: "Source Serif 4";
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 26px;
+  text-indent: 0px;
+  margin-bottom: 24px;
+  text-transform: none;
+}
+
+.h4-medium-brand {
+  font-size: 28px;
+  text-decoration: none;
+  font-family: "Wallop TRIAL";
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 33.6px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+.h5-medium-brand {
+  font-size: 22px;
+  text-decoration: none;
+  font-family: "Wallop TRIAL";
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 26.4px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+.h5-semibold-sans {
+  font-size: 22px;
+  text-decoration: none;
+  font-family: "Wallop TRIAL";
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 26.4px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+.xxxl-medium-italic-serif {
+  description: Lead Paragraphs and Pull Quotes;
+  font-size: 36px;
+  text-decoration: none;
+  font-family: "Source Serif 4";
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 43.2px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+.xxl-italic-serif {
+  font-size: 26px;
+  text-decoration: none;
+  font-family: "Source Serif 4";
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 36.4px;
+  text-indent: 0px;
+  margin-bottom: 52px;
+  text-transform: none;
+}
+
+.xl-medium-italic-serif {
+  font-size: 22px;
+  text-decoration: none;
+  font-family: "Source Serif 4";
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 35.2px;
+  text-indent: 0px;
+  margin-bottom: 24px;
+  text-transform: none;
+}
+
+.lg-medium-italic {
+  font-size: 20px;
+  text-decoration: none;
+  font-family: "Source Serif 4";
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 30px;
+  text-indent: 0px;
+  margin-bottom: 40px;
+  text-transform: capitalize;
+}
+
+.md-medium-sans {
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "Source Sans 3";
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 28.8px;
+  text-indent: 0px;
+  margin-bottom: 28px;
+  text-transform: none;
+}
+
+.md-regular-serif {
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "Source Serif 4";
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 28.8px;
+  text-indent: 0px;
+  margin-bottom: 12px;
+  text-transform: none;
+}
+
+.md-semibold-sans {
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "Source Sans 3";
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 28.8px;
+  text-indent: 0px;
+  margin-bottom: 28px;
+  text-transform: none;
+}
+
+.md-semibold-italic-serif {
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "Source Serif 4";
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 28.8px;
+  text-indent: 0px;
+  margin-bottom: 24px;
+  text-transform: none;
+}
+
+.sm-regular-serif {
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Source Serif 4";
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 24px;
+  text-indent: 0px;
+  margin-bottom: 8px;
+  text-transform: none;
+}
+
+.sm-regular-serif-tight {
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Source Serif 4";
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 22.4px;
+  text-indent: 0px;
+  margin-bottom: 32px;
+  text-transform: none;
+}
+
+.sm-semibold-sans {
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Source Sans 3";
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 16px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+.sm-regular-sans {
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 25.6px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+.sm-italic-serif {
+  font-size: 16px;
+  text-decoration: none;
+  font-family: "Source Serif 4";
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 25.6px;
+  text-indent: 0px;
+  margin-bottom: 32px;
+  text-transform: capitalize;
+}
+
+.xs-semibold-sans {
+  font-size: 14px;
+  text-decoration: none;
+  font-family: "Source Sans 3";
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 14px;
+  text-indent: 0px;
+  margin-bottom: 0px;
+  text-transform: none;
+}
+
+.xs-italic-serif {
+  font-size: 14px;
+  text-decoration: none;
+  font-family: "Source Serif 4";
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 19.6px;
+  text-indent: 0px;
+  margin-bottom: 24px;
+  text-transform: none;
+}
+
+.xs-regular-sans {
+  font-size: 14px;
+  text-decoration: none;
+  font-family: "Source Sans 3";
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 14px;
+  text-indent: 0px;
+  margin-bottom: 24px;
+  text-transform: none;
+}
+
+.xs-medium-italic-serif {
+  font-size: 14px;
+  text-decoration: none;
+  font-family: "Source Serif 4";
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0px;
+  line-height: 19.6px;
+  text-indent: 0px;
+  margin-bottom: 24px;
+  text-transform: none;
+}
+
+.xxs-regular-serif {
+  font-size: 12px;
+  text-decoration: none;
+  font-family: "Source Serif 4";
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+  letter-spacing: 0.24px;
+  line-height: 21.6px;
+  text-indent: 0px;
+  margin-bottom: 24px;
+  text-transform: none;
+}
